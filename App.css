@@ -1,0 +1,93 @@
+.App {
+  text-align: center;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-flow: row nowrap;
+}
+  .SideBar { 
+    
+    text-align: center;
+    word-wrap: normal;
+    width: 20%;
+    
+
+  }
+  #search {
+    width: 100%; 
+    height: 100%;
+    height: 1rem;
+    font-size: 1rem;
+    word-wrap: normal;
+  }
+.VenueList {
+  padding: 0.5rem;
+  
+
+
+}
+  .ListItem {
+    word-wrap: normal;
+    list-style:  none;
+    text-align: left;
+    font-size: 0.8rem;
+    padding: 0.5rem;
+    margin-top: 0.5rem; 
+    cursor: pointer;
+    background: #282c34;
+    color: white;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    
+  }
+
+
+  @media (max-width: 575px) {
+    #map {
+      height: 100vh;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .SideBar {
+      font-size: 1.1rem;
+    }
+    main {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+  }
+
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+
+
+
+}
